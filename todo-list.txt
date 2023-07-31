@@ -1,0 +1,108 @@
+- add your image or logo at (link rel - at the header) - change the logo to be rounded. Adjust the size to small, compress it for speed 
+- Implement dark mode and light mode switch in boostrap 5 - just like on the official website 
+- Look for the best icon to use e.g icons8.com, or tabler icons, or fontawesome, etc...
+- How to style avatars or icons in bootstrap 5, check out the avatar style used in Tabler, implement that. 
+- Convert your profile image or portrait to a cartoonish avatar
+- Make sure to have sm, md, lg versions of all images you use in your project, use the appropriate tools, also make sure they are compressed or quality reduced to ensure fast load speeds on your website.
+- Use lazy loading for images 
+- Create a checklist to go through for all your projects e.g: Checklist before launching a site. 
+- ***MAKE SURE TO COMBINE THE TWO TECHNICAL DOCUMENTATIONS OF YOUR SHUMA APP INTO 1 PDF FILE, AND ON ONE PAGE ON YOUR WEBSITE, INCLUDING UPDATING THE TABLE OF CONTENTS TO JOIN THE TWO PARTS. 
+
+- Update the sitemap.xml and the robots.txt files
+- Convert your avatars to specific aspect ratio and compression. ./static/avatars/me_1.jpg & me_2.jpg
+- Update links to your social media accounts
+- ***ENSURE ALL IMAGES ARE LAZY LOADED, AND OPTIMIZED(e.g. compression, all quality reduction - to reduce its size for production environment and fast load speeds.)
+- change the dimensions to appropriate ones e.g. the dimensions of project photos, or any other photos used in the project. 
+- How to trigger a PDF download using JavaScript.
+- How to create a QR-Code that links to my website.
+- What is a short paragraph I can write about myself on my website, or should I write a quote by someone, (*if you write a quote, use a script, to move through different quotes like a carousel)
+
+
+
+
+
+
+
+// Source Code References:
+
+
+
+                                    <!-- Chapter with section and subsection -->
+                                    <div class="chapter">
+                                        <h2 class="text-blue">CHAPTER FIVE: CONCLUSION AND RECOMMENDATION</h2>
+                                        <div class="chapter-section">
+                                            <h3 class="text-blue"></h3>
+                                            <p></p>
+                                            <p></p>
+
+                                            <div class="chapter-subsection">
+                                                <h3 class="text-blue"></h3>
+                                                <p></p>
+                                                <p></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Chapter with only section -->
+                                    <div class="chapter">
+                                        <div class="chapter-section">
+                                            <h2 class="text-blue"></h2>
+                                            <p></p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="chapter">
+                                        <h2 class="text-blue"></h2>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+
+
+
+// Table of contents references code 
+
+<h2 class="text-primary">Contents</h2>
+                                <h3 class="text-blue">CHAPTER ONE: INTRODUCTION 12</h3>
+
+                                <div class="btn-group-vertical">
+                                    <button onclick="window.location.href='./project-shared-housing.html#title'"
+                                        type="button" class="btn btn-link" data-bs-dismiss="offcanvas">1</button>
+                                    <button onclick="window.location.href='./project-shared-housing.html#title'"
+                                        type="button" class="btn btn-link" data-bs-dismiss="offcanvas">2</button>
+                                    <button onclick="window.location.href='./project-shared-housing.html#title'"
+                                        type="button" class="btn btn-link" data-bs-dismiss="offcanvas">3</button>
+                                    <button onclick="window.location.href='./project-shared-housing.html#title'"
+                                        type="button" class="btn btn-link" data-bs-dismiss="offcanvas">4</button>
+                                </div>
+
+                                <ul class="list-unstyled">
+                                    <li>
+
+                                        <!-- <button type="button" class="btn btn-link" data-bs-dismiss="offcanvas"> -->
+                                        <a href="./project-shared-housing.html?#para"
+                                            class="btn btn-link text-decoration-none" onclick="">
+                                            1.1 Introduction
+                                        </a>
+                                        <!-- </button> -->
+                                    </li>
+                                    <li>
+                                        <a href="./project-shared-housing.html?#title">
+                                            <button type="button" class="btn btn-link text-decoration-none"
+                                                data-bs-dismiss="offcanvas">
+                                                1.2 Background
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <!-- <a href="./project-shared-housing.html?#title"> -->
+                                        <button onclick="window.location.href='./project-shared-housing.html#title'"
+                                            type="button" class="btn btn-link text-decoration-none"
+                                            data-bs-dismiss="offcanvas">
+                                            1.2 Google
+                                        </button>
+                                        <!-- </a> -->
+                                    </li>
+                                </ul>
